@@ -76,5 +76,29 @@
         		<li><a>© Copyright 2019 bigbrainstudy</a></li>
 			</ul>
 		</footer>
+		
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+		<script>
+		  // Your web app's Firebase configuration
+		  var firebaseConfig = {
+			apiKey: "AIzaSyC-EpIdUrZb9rWSAjSRuQjAdPWtzb_D8To",
+			authDomain: "gtmonitor-b4d5b.firebaseapp.com",
+			databaseURL: "https://gtmonitor-b4d5b.firebaseio.com",
+			projectId: "gtmonitor-b4d5b",
+			storageBucket: "gtmonitor-b4d5b.appspot.com",
+			messagingSenderId: "125130339627",
+			appId: "1:125130339627:web:0c54c4a1e242a7bdf5c16e",
+			measurementId: "G-JSKQH1M3TX"
+		  };
+		  // Initialize Firebase
+		  firebase.initializeApp(firebaseConfig);
+		  firebase.analytics();
+		</script>
 	</body>
 </html>
