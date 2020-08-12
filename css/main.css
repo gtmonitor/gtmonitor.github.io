@@ -53,9 +53,7 @@ p {
     color: #000000;
 	margin: 0 auto;
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
 }
 footer {
     border-top: 1px solid #d5d5d5;
