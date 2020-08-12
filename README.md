@@ -1,2 +1,2 @@
-# bigbrainstudy.github.io
-Educational resources
+# gtmonitor.github.io
+selfexplanatory
