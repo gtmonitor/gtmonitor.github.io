@@ -51,9 +51,6 @@ p {
 	font-family:'Helvetica';
     line-height: 1.4em;
     color: #000000;
-	margin: 0 auto;
-	position: absolute;
-
 }
 footer {
     border-top: 1px solid #d5d5d5;
