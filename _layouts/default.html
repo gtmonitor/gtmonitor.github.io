@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">home</a></li>
+	        	<li><a href="/about">about</a></li>
+        		<li><a href="/resources">resources</a></li>
+        		<li><a href="/news">news</a></li>
+				<script>
+				(function() {
+					var cx = '002460216212498455521:v6kcgqie0hx';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
+					})();
+				</script>
+				<gcse:search resultsUrl="http://bigbrainstudy.github.io/"        newWindow="true" queryParameterName="search">
+				<div class="gcse-search"></div>
+    		</ul>
+		</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+    		<ul>
+        		<li><a href="mailto:bigbrainstudy@mail.com">email</a></li>
+        		<li><a href="https://github.com/bigbrainstudy">github.com/bigbrainstudy</a></li>
+			  </ul>
+			</footer>
+		</body>
+	</html>
